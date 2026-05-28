@@ -1,5 +1,6 @@
 import ProjectCard from "./components/ProjectCard";
 import Image from "next/image";
+import Footer from "./components/Footer";
 
 const projects = [
   {
@@ -138,6 +139,8 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <Footer />
       </section>
     </main>
   );
