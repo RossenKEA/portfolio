@@ -48,16 +48,13 @@ export default function Home() {
             Portfolio by Rasmus Rossen
           </h1>
 
-          <p className="max-w-3xl leading-8 text-zinc-300">
-            I enjoy turning design ideas and mockups into responsive, accessible websites
-            using React and Next.js. Through my studies and personal projects, I have
-            developed a strong interest in frontend development, user experience, and
-            modern web technologies.
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
+            25-year-old Multimedia Design student from Denmark, specializing in
+            frontend development with React, Next.js, and TypeScript.
           </p>
 
-          <p className="mt-4 max-w-3xl leading-8 text-zinc-300">
-            I am currently looking for a frontend development internship starting in
-            August as part of my Multimedia Design education at EK in Denmark.
+          <p className="mt-3 text-sm text-zinc-400">
+            Currently seeking a frontend internship starting August 2026.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -101,16 +98,20 @@ export default function Home() {
               />
             </div>
 
-            <div>
-              <p className="max-w-3xl leading-8 text-zinc-300">
-                I am a Multimedia Design student at EK in Denmark with a focus on
-                frontend web development. I enjoy building responsive websites and
-                combining visual design with clean, structured code.
+            <div className="space-y-4 text-zinc-300">
+              <p>
+                I enjoy combining creativity and problem-solving to build websites that are
+                both visually appealing and easy to use.
               </p>
 
-              <p className="mt-4 max-w-3xl leading-8 text-zinc-300">
-                My interests include UI design, modern web technologies, accessibility,
-                and creating user experiences that feel intuitive and polished.
+              <p>
+                Through my studies and personal projects, I have worked with business
+                websites, e-commerce solutions, and API-driven applications.
+              </p>
+
+              <p>
+                My focus is writing clean code, creating intuitive interfaces, and
+                continuously improving my frontend development skills.
               </p>
             </div>
           </div>
