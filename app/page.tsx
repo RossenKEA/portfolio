@@ -8,6 +8,7 @@ const projects = [
     tech: ["Next.js", "Tailwind CSS", "Zod", "Render"],
     liveUrl: "https://nightclub-frontend-ashen.vercel.app",
     githubUrl: "https://github.com/RossenKEA/nightclub-frontend",
+    imageUrl: "/projects/project1.png",
   },
   {
     title: "Webshop",
@@ -15,6 +16,7 @@ const projects = [
     tech: ["Next.js", "Tailwind CSS", "JSON"],
     liveUrl: "https://simpel-shop-rho.vercel.app",
     githubUrl: "https://github.com/RossenKEA/simpel-shop",
+    imageUrl: "/projects/project2.png",
   },
   {
     title: "Consultation Company",
@@ -22,6 +24,7 @@ const projects = [
     tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
     liveUrl: "https://askexperts-ahr.netlify.app",
     githubUrl: "https://github.com/RossenKEA/askexperts",
+    imageUrl: "/projects/project3.png",
   },
 ];
 
