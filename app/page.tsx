@@ -1,4 +1,5 @@
 import ProjectCard from "./components/ProjectCard";
+import Image from "next/image";
 
 const projects = [
   {
@@ -43,7 +44,7 @@ export default function Home() {
             on clean design, usability, and structured code.
           </p>
 
-          <div className="mt-8 flex gap-4">
+          <div className="mt-8 flex flex-wrap gap-4">
             <a
               href="#projects"
               className="rounded-full bg-white px-5 py-3 text-sm font-medium text-zinc-950"
@@ -52,8 +53,17 @@ export default function Home() {
             </a>
 
             <a
-              href="mailto:your-email@example.com"
-              className="rounded-full border border-zinc-700 px-5 py-3 text-sm font-medium"
+              href="https://www.linkedin.com/in/rasmus-rossen-8b2403127"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-zinc-700 px-5 py-3 text-sm font-medium hover:bg-zinc-800 transition"
+            >
+              LinkedIn
+            </a>
+
+            <a
+              href="mailto:raro0002@stud.ek.dk"
+              className="rounded-full border border-zinc-700 px-5 py-3 text-sm font-medium hover:bg-zinc-800 transition"
             >
               Contact me
             </a>
@@ -61,14 +71,33 @@ export default function Home() {
         </div>
 
         <section className="mb-24">
-          <h2 className="mb-6 text-2xl font-semibold">About me</h2>
+          <h2 className="mb-8 text-2xl font-semibold">About me</h2>
 
-          <p className="max-w-3xl leading-8 text-zinc-300">
-            I am interested in the connection between design and code. Through
-            my education and projects, I work with visual identity, user
-            experience, responsive layouts, and frontend technologies. My goal
-            is to build websites that feel simple, clear, and useful.
-          </p>
+          <div className="grid gap-10 md:grid-cols-[220px_1fr] md:items-center">
+            <div>
+              <Image
+                src="/images/headshot.jpg"
+                alt="Portrait of Rasmus Rossen"
+                width={220}
+                height={220}
+                className="rounded-3xl object-cover border border-zinc-800"
+                priority
+              />
+            </div>
+
+            <div>
+              <p className="max-w-3xl leading-8 text-zinc-300">
+                I am a Multimedia Design student at EK in Denmark with a focus on
+                frontend web development. I enjoy building responsive websites and
+                combining visual design with clean, structured code.
+              </p>
+
+              <p className="mt-4 max-w-3xl leading-8 text-zinc-300">
+                My interests include UI design, modern web technologies, accessibility,
+                and creating user experiences that feel intuitive and polished.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="mb-24">
