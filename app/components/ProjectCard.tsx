@@ -19,7 +19,7 @@ export default function ProjectCard({
   imageUrl,
 }: ProjectCardProps) {
   return (
-    <article className="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-6">
+    <article className="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-6 transition duration-300 hover:-translate-y-1 hover:border-zinc-700">
         <div className="relative mb-5 overflow-hidden rounded-2xl border border-zinc-800">
             <Link
                 href={liveUrl}
