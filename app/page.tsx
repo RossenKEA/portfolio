@@ -48,10 +48,16 @@ export default function Home() {
             Portfolio by Rasmus Rossen
           </h1>
 
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-zinc-300">
-            I am a Multimedia Design student at EK in Denmark, specializing in
-            frontend web development. I create responsive websites with a focus
-            on clean design, usability, and structured code.
+          <p className="max-w-3xl leading-8 text-zinc-300">
+            I enjoy turning design ideas and mockups into responsive, accessible websites
+            using React and Next.js. Through my studies and personal projects, I have
+            developed a strong interest in frontend development, user experience, and
+            modern web technologies.
+          </p>
+
+          <p className="mt-4 max-w-3xl leading-8 text-zinc-300">
+            I am currently looking for a frontend development internship starting in
+            August as part of my Multimedia Design education at EK in Denmark.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
