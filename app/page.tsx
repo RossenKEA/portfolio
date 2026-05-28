@@ -4,7 +4,7 @@ import Image from "next/image";
 const projects = [
   {
     title: "Night Club",
-    description: "A fully API-functional website for a fictional Night Club in Copenhagen.",
+    description: "A full-stack nightclub website with API-based booking, form validation, and deployed frontend/backend.",
     tech: ["Next.js", "Tailwind CSS", "Zod", "Render"],
     liveUrl: "https://nightclub-frontend-ashen.vercel.app",
     githubUrl: "https://github.com/RossenKEA/nightclub-frontend",
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: "Webshop",
-    description: "A fake webshop that works (except payment and delivery of course).",
+    description: "A frontend webshop built with product filtering, cart functionality, and dynamic product data.",
     tech: ["Next.js", "Tailwind CSS", "JSON"],
     liveUrl: "https://simpel-shop-rho.vercel.app",
     githubUrl: "https://github.com/RossenKEA/simpel-shop",
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: "Consultation Company",
-    description: "A website for a fictional consult company called AskExperts.",
+    description: "A responsive business website for a fictional consulting company with professional page layout.",
     tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
     liveUrl: "https://askexperts-ahr.netlify.app",
     githubUrl: "https://github.com/RossenKEA/askexperts",
