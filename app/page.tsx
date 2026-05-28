@@ -2,18 +2,25 @@ import ProjectCard from "./components/ProjectCard";
 
 const projects = [
   {
-    title: "Project One",
-    description: "Short description of what the website does and what you coded.",
-    tech: ["Next.js", "React", "Tailwind CSS"],
-    liveUrl: "https://your-website.com",
-    githubUrl: "https://github.com/yourusername/project-one",
+    title: "Night Club",
+    description: "A fully API-functional website for a fictional Night Club in Copenhagen.",
+    tech: ["Next.js", "Tailwind CSS", "Zod", "Render"],
+    liveUrl: "https://nightclub-frontend-ashen.vercel.app",
+    githubUrl: "https://github.com/RossenKEA/nightclub-frontend",
   },
   {
-    title: "Project Two",
-    description: "Another school or personal project focused on frontend development.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    liveUrl: "https://your-second-website.com",
-    githubUrl: "https://github.com/yourusername/project-two",
+    title: "Webshop",
+    description: "A fake webshop that works (except payment and delivery of course).",
+    tech: ["Next.js", "Tailwind CSS", "JSON"],
+    liveUrl: "https://simpel-shop-rho.vercel.app",
+    githubUrl: "https://github.com/RossenKEA/simpel-shop",
+  },
+  {
+    title: "Consultation Company",
+    description: "A website for a fictional consult company called AskExperts.",
+    tech: ["Next.js", "Tailwind CSS", "Responsive Design"],
+    liveUrl: "https://askexperts-ahr.netlify.app",
+    githubUrl: "https://github.com/RossenKEA/askexperts",
   },
 ];
 
