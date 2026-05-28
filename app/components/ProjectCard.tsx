@@ -20,24 +20,20 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <article className="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-6 transition duration-300 hover:-translate-y-1 hover:border-zinc-700">
-        <div className="relative mb-5 overflow-hidden rounded-2xl border border-zinc-800">
-            <Link
-                href={liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block"
-                >
-                <div className="relative overflow-hidden rounded-2xl border border-zinc-800">
-                    <Image
-                    src={imageUrl}
-                    alt={title}
-                    width={1200}
-                    height={700}
-                    className="h-64 w-full object-cover object-top transition duration-300 hover:scale-[1.02]"
-                    />
-                </div>
-            </Link>
-        </div>
+        <Link
+          href={liveUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mb-5 block overflow-hidden rounded-2xl border border-zinc-800"
+        >
+          <Image
+            src={imageUrl}
+            alt={title}
+            width={1200}
+            height={700}
+            className="h-64 w-full object-cover object-top transition duration-300 hover:scale-[1.02]"
+          />
+        </Link>
         <Link
             href={liveUrl}
             target="_blank"
