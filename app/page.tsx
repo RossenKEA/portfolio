@@ -56,6 +56,9 @@ export default function Home() {
           <p className="mt-3 text-sm text-zinc-400">
             Currently seeking a frontend internship starting August 2026.
           </p>
+          <p className="mt-3 text-sm text-zinc-400">
+            Portfolio, GitHub, and CV available below.
+          </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -72,6 +75,15 @@ export default function Home() {
               className="rounded-full border border-zinc-700 px-5 py-3 text-sm font-medium hover:bg-zinc-800 transition"
             >
               LinkedIn
+            </a>
+
+            <a
+              href="/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-zinc-700 px-5 py-3 text-sm font-medium hover:bg-zinc-800 transition"
+            >
+              Download CV
             </a>
 
             <a

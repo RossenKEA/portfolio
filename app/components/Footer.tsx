@@ -30,6 +30,15 @@ export default function Footer() {
         >
           GitHub
         </a>
+
+        <a
+          href="/cv.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          CV
+        </a>
       </div>
 
       <p className="mt-10 text-sm text-zinc-500">
