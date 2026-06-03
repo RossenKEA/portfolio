@@ -14,6 +14,16 @@ const projects = [
     imageUrl: "/projects/project1.png",
   },
   {
+    title: "Kanban Project Manager",
+    description: "A full-stack app with drag-and-drop management and data persistence built with Next.js, Prisma, and PostgreSQL.",
+    tech: ["Next.js", "Prisma", "PostgreSQL", "dnd-kit", "shadcn/ui"],
+    learned: ["Full-stack CRUD", "Prisma ORM and PostgreSQL", "dnd-kit"],
+    status: "Live",
+    liveUrl: "https://kanban-project-manager-xi.vercel.app",
+    githubUrl: "https://github.com/RossenKEA/kanban-project-manager",
+    imageUrl: "/projects/project4-fix.png",
+  },
+  {
     title: "Webshop",
     description: "A frontend webshop built with product filtering, cart functionality, and dynamic product data.",
     tech: ["Next.js", "Tailwind CSS", "JSON"],
@@ -144,6 +154,11 @@ export default function Home() {
               "Figma",
               "Responsive Design",
               "UI Design",
+              "Prisma",
+              "PostgreSQL",
+              "SQLite",
+              "Vercel",
+              "Supabase",
             ].map((skill) => (
               <span
                 key={skill}
