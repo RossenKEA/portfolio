@@ -24,6 +24,16 @@ const projects = [
     imageUrl: "/projects/project4-fix.png",
   },
   {
+    title: "AI Chat App",
+    description: "A full-stack AI chat app with Gemini integration, chat history, markdown render, and a demo fallback to handle API limits.",
+    tech: ["Next.js", "TypeScript", "React Markdown", "Gemini API", "Vercel AI SDK", "Tailwind CSS"],
+    learned: ["Integrating LLM APIs into web applications", "Server-side API routes", "Error handling and fallback systems"],
+    status: "Live",
+    liveUrl: "https://portfolio-ai-chat-rho.vercel.app",
+    githubUrl: "https://github.com/RossenKEA/portfolio-ai-chat",
+    imageUrl: "/projects/project5.png",
+  },
+  {
     title: "Webshop",
     description: "A frontend webshop built with product filtering, cart functionality, and dynamic product data.",
     tech: ["Next.js", "Tailwind CSS", "JSON"],
